@@ -1,0 +1,65 @@
+.hamburger-container {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hamburger-square {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.line {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: #FF5721;
+    border-radius: 5px;
+    left: 0;
+}
+
+.line-1 {
+    top: 0;
+    transform: rotate(0);
+    transition: top 1s, transform 1s;
+
+}
+.line-2 {
+    top: 20px;
+    width: 50px;
+    transition: top 1s, left 1s, width 1s;
+
+}
+.line-3 {
+    top: 40px;
+    transform: rotate(0);
+    transition: top 1s, transform 1s;
+
+}
+
+.hamburger-container:hover .line-1 {
+    top: 20px;
+    transform: rotate(45deg);
+    transition: top 1s, transform 1s;
+
+}
+.hamburger-container:hover .line-2 {
+    top: 20px;
+    width: 10px;
+    left: 20px;
+    transition: top 1s, left 1s, width 1s;
+
+}
+.hamburger-container:hover .line-3 {
+    top: 20px;
+    transform: rotate(135deg);
+    transition: top 1s, transform 1s;
+
+}
+
+.smooth {
+}
