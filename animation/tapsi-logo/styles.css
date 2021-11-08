@@ -1,0 +1,45 @@
+.tapsi-square {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+@keyframes loading-top {
+    5% {
+        width: 90px;
+    }
+    10% {
+        width: 50px;
+    }
+}
+@keyframes loading-bottom {
+    5% {
+        width: 120px;
+    }
+    10% {
+        width: 80px;
+    }
+}
+.line {
+    background-color: #FF5721;
+    height: 20px;
+    box-shadow: 0 1px 30px 10px #00000044;
+}
+
+.line:first-child {
+    width: 50px;
+    animation-name: loading-top;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+.line:last-child {
+    width: 80px;
+    animation-name: loading-bottom;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .1s;
+}
