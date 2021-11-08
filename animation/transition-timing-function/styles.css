@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.img {
+    width: 90%;
+    background-position: center;
+    background-image: url("img.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px auto;
+
+}
+.row-container {
+    width: 100%;
+    color: white;
+    height: 50px;
+    background-color: #444;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-container .row-orange {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 50px;
+    background-color: #FF5721;
+    animation-name: fill;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.row-container p {
+    z-index: 10;
+}
+@keyframes fill {
+    0% {
+        width: 0;
+        left: 0
+    }
+    25% {
+        width: 100%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    75% {
+        width: 0;
+        left: 100%;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+.ease {
+    animation-timing-function: ease;
+}
+.ease-in {
+    animation-timing-function: ease-in;
+}
+.ease-out {
+    animation-timing-function: ease-out;
+}
+.ease-in-out {
+    animation-timing-function: ease-in-out;
+}

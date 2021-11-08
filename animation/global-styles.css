@@ -6,7 +6,7 @@ html {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-image: radial-gradient(#001c60, black);
+    background-color: black;
     font-family: 'Comfortaa', cursive;
     position: relative;
 }
