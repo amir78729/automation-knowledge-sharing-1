@@ -1,4 +1,4 @@
-.hamburger-container {
+#hamburger-container {
     height: 110px;
     width: 110px;
     background-color: white;
@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 .hamburger-square {
@@ -22,44 +23,41 @@
     left: 0;
 }
 
-.line-1 {
+.hamburger .line-1 {
     top: 0;
     transform: rotate(0);
-    transition: top 1s, transform 1s;
+    transition: top .5s, transform .5s;
 
 }
-.line-2 {
+.hamburger .line-2 {
     top: 20px;
     width: 50px;
-    transition: top 1s, left 1s, width 1s;
+    transition: top .5s, left .5s, width .5s;
 
 }
-.line-3 {
+.hamburger .line-3 {
     top: 40px;
     transform: rotate(0);
-    transition: top 1s, transform 1s;
+    transition: top .5s, transform .5s;
 
 }
 
-.hamburger-container:hover .line-1 {
+.cross .line-1 {
     top: 20px;
     transform: rotate(45deg);
-    transition: top 1s, transform 1s;
+    transition: top .5s, transform .5s;
 
 }
-.hamburger-container:hover .line-2 {
+.cross .line-2 {
     top: 20px;
     width: 10px;
     left: 20px;
-    transition: top 1s, left 1s, width 1s;
+    transition: top .5s, left .5s, width .5s;
 
 }
-.hamburger-container:hover .line-3 {
+.cross .line-3 {
     top: 20px;
     transform: rotate(135deg);
-    transition: top 1s, transform 1s;
-
+    transition: top .5s, transform .5s;
 }
 
-.smooth {
-}

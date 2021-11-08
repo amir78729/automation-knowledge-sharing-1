@@ -13,16 +13,25 @@
     <p>Automation Knowledge Sharing | ‌</p>
     <p id="date"></p>
 </div>
-<div class="hamburger-container">
+<div id="hamburger-container" onclick="changeClass()">
     <div class="hamburger-square">
-        <div class="line line-1 smooth"></div>
-        <div class="line line-2 smooth"></div>
-        <div class="line line-3 smooth"></div>
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
     </div>
 </div>
 <script src="../getDate.js"></script>
 <script>
-    let hamburger = false;
+    function changeClass() {
+        if (!isHamburger)
+            hamburgerContainer.className = 'hamburger';
+        else
+            hamburgerContainer.className = 'cross';
+        isHamburger = !isHamburger;
+    }
+    let hamburgerContainer = document.getElementById('hamburger-container');
+    hamburgerContainer.className = 'hamburger';
+    let isHamburger = true;
 </script>
 </body>
 </html>
