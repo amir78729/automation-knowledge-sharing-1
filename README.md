@@ -26,6 +26,9 @@ Slides are available [here](https://docs.google.com/presentation/d/1e99AYINXtFnY
 ## 📚 References
 - [CSS Versus JavaScript Animations](https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript)
 - [Difference between animation and transition in CSS](https://www.geeksforgeeks.org/difference-between-animation-and-transition-in-css/)
+- [How to make custom CSS animation/transition timing function](https://stackoverflow.com/questions/39735012/how-to-make-custom-css-animation-transition-timing-function)
+- [CSS in Depth](https://www.manning.com/books/css-in-depth)
+- [HTML `<marquee>` tag](https://www.w3schools.in/html-tutorial/marquee-tag/)
 
 ## 💡 Useful Links
 - [15 Best Website Animation Techniques for Your Web Design](https://fireart.studio/blog/10-best-website-animation-techniques-for-your-web-design/)
