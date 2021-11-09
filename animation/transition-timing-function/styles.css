@@ -6,21 +6,20 @@ body {
 }
 .container {
     height: 300px;
-    width: 90%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
 }
 .img {
-    width: 90%;
+    width: 400px;
     background-position: center;
     background-image: url("img.png");
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 10px auto;
-
 }
 .row-container {
     width: 100%;
