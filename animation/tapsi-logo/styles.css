@@ -15,25 +15,10 @@
 
 .line:first-child {
     width: 50px;
-    animation: loading-top 4s ease-in-out infinite;
 }
 .line:last-child {
     width: 80px;
-    animation: loading-bottom 4s ease-in-out .1s infinite;
 }
-@keyframes loading-top {
-    5% {
-        width: 90px;
-    }
-    10% {
-        width: 50px;
-    }
-}
-@keyframes loading-bottom {
-    5% {
-        width: 120px;
-    }
-    10% {
-        width: 80px;
-    }
-}
+
+/* Animation Keyframes: */
+

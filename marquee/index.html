@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><marquee></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../global-styles.css">
+</head>
+<body>
+<div class="header">
+    <p>Automation Knowledge Sharing | ‌</p>
+    <p id="date"></p>
+</div>
+<div style="margin: auto">
+    <marquee direction="up"
+             behavior="alternate"
+             height="200px"
+             width="260px"
+             style="color: wheat; border: solid wheat 1px"
+             scrollamount="2">
+        <marquee behavior="alternate" direction="left" scrollamount="2">
+            <b><em>DVD</em></b>
+        </marquee>
+    </marquee>
+</div>
+<p style="color: wheat;" id="marquee-content"></p>
+<script src="../getDate.js"></script>
+<script>
+    document.getElementById('marquee-content').innerText = '<marquee> is stupid. Don\'t use it!'
+</script>
+</body>
+</html>
