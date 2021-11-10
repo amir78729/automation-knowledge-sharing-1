@@ -23,51 +23,51 @@
 }
 .hamburger {
     background-color: white;
-    transition: background-color .3s;
+    transition: background-color 1s;
 }
 .hamburger .line{
     background-color: #FF5721;
-    transition: background-color .3s;
+    transition: background-color 1s;
 }
 .cross {
     background-color: #FF5721;
-    transition: background-color .3s;
+    transition: background-color 1s;
 }
 .cross .line{
     background-color: white;
-    transition: background-color .3s;
+    transition: background-color 1s;
 }
 
 .hamburger .line-1 {
     top: 0;
     transform: rotate(0);
-    transition: top .3s, transform .3s;
+    transition: top 1s, transform 1s;
 }
 .hamburger .line-2 {
     top: 20px;
     width: 50px;
-    transition: left .3s, width .3s;
+    transition: left 1s, width 1s;
 }
 .hamburger .line-3 {
     top: 40px;
     transform: rotate(0);
-    transition: top .3s, transform .3s;
+    transition: top 1s, transform 1s;
 }
 
 .cross .line-1 {
     top: 20px;
     transform: rotate(45deg);
-    transition: top .3s, transform .3s;
+    transition: top 1s, transform 1s;
 }
 .cross .line-2 {
     top: 20px;
     width: 10px;
     left: 20px;
-    transition: left .3s, width .3s;
+    transition: left 1s, width 1s;
 }
 .cross .line-3 {
     top: 20px;
     transform: rotate(135deg);
-    transition: top .3s, transform .3s;
+    transition: top 1s, transform 1s;
 }
 
